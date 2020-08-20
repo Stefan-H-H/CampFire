@@ -115,7 +115,7 @@ Repository Links:
  3. The web application now has Welcome landing page.
  4. Route redirection is now implemented upon sign-in and sign-out. Additionally, available routes are restricted based on the user's signed-in status.
  
- Please note that a listing of the GraphQL queries and mutations can be found in the [graphQL.md] (/graphQL.md) file.
+ Please note that a listing of the GraphQL queries and mutations can be found in the [graphQL.md](/graphQL.md) file.
  
  #### Upcoming things to work on:
 
