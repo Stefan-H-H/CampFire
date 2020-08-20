@@ -2,51 +2,51 @@
 
 <h2>Campfire:</h2>
 <h3> Group Members: Pedro Cantu, Stefan Hristov, Mustafa Ramadan, Heejun You </h3>
-You are currenly on the API repository for project Campfire.
 
 Deployment Link: https://campfire-ui.herokuapp.com/
+
 **As per any authenticated user web application, a user must sign-in to create their own contacts to see all necessary functionality.**
 
 <b>API Repository:</b> https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API
 
 <b>UI Repository:</b> : https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_UI
 
-Our group project is called <b>Campfire</b>. The purpose of this web application is for a user to log into the webapp, and be able to add "contacts" into their personalized address book, and be able to set frequencies for how often they would like to reconnect with their contacts. Thus by using this webapp, the user will always be reconnecting with contacts in accordance to how often they want to reconnect with them. Forgetfulness is no longer a factor when using Campfire. The basis of this project has been created using the boilerplate code used from the MERN Stack Issue Tracker Book Project by Vasan Subramanian.
+Our group project is called <b>Campfire</b>. The purpose of this web application is for a user to log into the webapp, and be able to add "contacts" into their personalized address book, and specify the frequencies of reconnecting with said contacts. The web application provides an actionable dashboard with reminders to reconnect with contacts and keep relationships fresh and strong. The application supports the standard CRUD (Create, Read, Update, and Delete) operations when the user manipulates contact data. The basis of this project was inspired by PRO MERN Stack by Vasan Subramanian which was a separate project implemented [here](https://github.com/Stefan-H-H/Issue-Tracker).
 
 ## Final Screenshots of Campfire Project
 
 <b>The Welcome page prior to signing in. And if not signed it, will not allow the user to access the Dashboard/ Contacts page.</b>
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Welcome2.png)
+![](/ReadmeImages/Welcome2.png)
 
 <b>The Dashboard page where a user can view the upcoming contacts based on urgency (date).</b>
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Dashboard2.png)
+![](/ReadmeImages/Dashboard2.png)
 
 <b>The Dashboard page where a user can filter our contacts via urgency (date).</b>
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/DashboardFilter2.png)
+![](/ReadmeImages/DashboardFilter2.png)
 
 <b>The Contacts page where a user can view all of their contacts.</b>
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Contacts2.png)
+![](/ReadmeImages/Contacts2.png)
 
 <b>The Contacts page where a user can drill down into a specific contact revealing additional details of the selected contact.</b>
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/ContactsDetails2.png)
+![](/ReadmeImages/ContactsDetails2.png)
 
 <b>The Contacts page where a user can filter out contacts according to the filters allowed.</b>
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/ContactsFilter2.png)
+![](/ReadmeImages/ContactsFilter2.png)
 
 <b>The Contacts page where a user can delete/ restore selected contacts. </b>
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Delete2.png)
+![](/ReadmeImages/Delete2.png)
 
 <b>The Contacts page where a user can activate/deactivate a selected contact. </b>
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Toggle2.png)
+![](/ReadmeImages/Toggle2.png)
 
 <b>On the navigation bar, the plus icon allows a user to add a contact to their contact book.</b>
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Add2.png)
+![](/ReadmeImages/Add2.png)
 
 <b>On the navigation bar, the search bar allows the user to search according to contact name or company.</b>
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Search2.png)
+![](/ReadmeImages/Search2.png)
 
 <b>The user has the ability to edit a contact's information including but not limited to reminder frequency, next contact date, etc.</b>
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Edit2.png)
+![](/ReadmeImages/Edit2.png)
 
 ## Iteration 3.0:
 
@@ -115,7 +115,7 @@ Repository Links:
  3. The web application now has Welcome landing page.
  4. Route redirection is now implemented upon sign-in and sign-out. Additionally, available routes are restricted based on the user's signed-in status.
  
- Please note that a listing of the GraphQL queries and mutations can be found in the [graphQL.md](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/graphQL.md) file.
+ Please note that a listing of the GraphQL queries and mutations can be found in the [graphQL.md] (/graphQL.md) file.
  
  #### Upcoming things to work on:
 
@@ -200,9 +200,9 @@ There's a considerable amount of logic involved in setting the nextContactDate f
 
 The images below illustrate the contact details of an active status vs an inactive status (view the next contact date)
 
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/ContactDetailsActive.png)
+![](/ReadmeImages/ContactDetailsActive.png)
 
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/ContactDetailsInactive.png)
+![](/ReadmeImages/ContactDetailsInactive.png)
 
 
 - <b>Delete:</b> On the Contacts tab of the navigation bar, the user has the ability to delete any contact they no longer want. This can be done in the far right column on the Contacts page, i.e. Edit column. In the "Edit" column, the user will find an "Edit" button, an "Active/Inactive" Toggler, and a "Delete" button. The delete button when clicked will prompt a Toast message if a succesfful deletion of the contact occured. Also, similarly to delete, our web application implements an active status for each user. This allows the user to filter on contacts they still consider "active" and are wanting to reconnect with. Thus, the active/inactive toggler will update the specified contacts active status which in turn if "inactive" will set the "Next Contact Date" to null.
@@ -212,32 +212,32 @@ In addition to the CRUD operations, our web application is set up as follows. Th
 
 - <b>Dashboard:</b> Disclaimer- Not fully implemented. But the idea is that the user's upcoming reminders (which could be remidners that are occuring within the week or day) will render on the Dashboard page. And upon clicking on the Reconnect button, this will reset the "Last Contact Date" to the present day the "Reconnect" button was clicked and reupdate the "Next Contact Date". And allows the user to update any information on that specific contact. This in turn will likely render that contact off of the dashboard page as the dashboard page assesses the upcoming contacts based off of "Next Contact Date".
 
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Dashboard.png)
+![](/ReadmeImages/Dashboard.png)
 
 - <b>Contacts:</b> Includes all of the user's contacts they've set on this page. The page render 10 contacts at a time, and a next/prev navigation button is located on the button of the page. The contacts page displays the user's contacts according to fields described above. In addition to the display as well as interactivity from the user in the form of the "Edit" button, "Active/Inactive Toggler", "Delete" button, the user has the ability to also filter which is found directly underneath the navigation bar. The user can filter via Active Status (Active/Inactive), Priority (Low, Medium, High), Frequency (Weekly, Biweekly, Monthly, Quarterly, Biannual, Yearly, Custom) and Familiarity(Familiar, Unfamiliar, Intimate, Meaningful). Once applying those filter, a subset of the contacts book will render on the screen of the Contacts page. The user has the ability to reset the filters to none (full contacts page rerenders).
 
 
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/ContactsTab.png)
+![](/ReadmeImages/ContactsTab.png)
 
 <b>Interactive Functions Summary: </b> 
 - A search bar is implemented on every page which allows the user to query based off of the contact fields: name, company. As seen below:
 
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Search.png)
+![](/ReadmeImages/Search.png)
 
 - A filter is implemented on every page which allows the user to filter by Active Status, Priority, Frequency and Familiarity As seen below:
 
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/Filter.png)
+![](/ReadmeImages/Filter.png)
 
 - Add contact operation when signed in. As seen below:
 
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/AddContact.png)
+![](/ReadmeImages/AddContact.png)
 
 
 - Reconnect with a contact on the Dashboard which updates the LastContactDate to the day the reconnect button was clicked, and updates the NextContactDate based off the frequency provided for the contact.
 
 - Edit contact operation on Contacts page. As seen below:
 
-![](https://github.ccs.neu.edu/NEU-CS5610-SU20/GroupProject_jsonStatham_API/blob/master/ReadmeImages/EditPage.png)
+![](/ReadmeImages/EditPage.png)
 
 - Toggle the active status of a specific contact on Contacts page
 - Delete a contact on the Contacts page
